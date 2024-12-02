@@ -17,6 +17,8 @@ Utils.h + Utils.cpp
 Larm.json
 
 
+HEJHGEJHLLÅ
+
 // Exempel på en ny databas
     json database = {
         {"customers", json::array()}
