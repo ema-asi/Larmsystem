@@ -57,11 +57,11 @@ database["customers"].push_back(newCustomer);
 
      Spara databasen
     saveDatabase(database, dbFile);
+    
 
 
 ### System Requirement Specification (SRS)  
-**Project Name**: Modular Alarm Management System  
-**Prepared by**: John Collinder  
+**Project Name**: Modular Alarm Management System   
 **Date**: 2024-12-02  
 
 ---
@@ -106,9 +106,8 @@ Systemet ska vara flexibelt, modulärt och användarvänligt. Det ska leverera e
 
 ##### 2.2 **Non-Functional Requirements**  
 - **Modularitet**: Systemet ska kunna växla mellan NoSQL och SQL vid installation.  
-- **Prestanda**: Systemet ska hantera upp till 1 000 kunder och 10 000 larmsystemskomponenter.  
+- **Prestanda**: Systemet ska hantera upp till 10 kunder och 100 larmsystemskomponenter.  
 - **Säkerhet**:  
-  - Känslig information (t.ex. sifferkoder och verifieringsfraser) ska lagras krypterat.  
   - Endast behöriga användare ska få åtkomst till databasen.  
 
 ##### 2.3 **Assumptions and Dependencies**  
@@ -150,7 +149,8 @@ Systemet ska vara flexibelt, modulärt och användarvänligt. Det ska leverera e
 - **Bibliotek**:  
   - För JSON: `nlohmann/json`  
   - För SQL: `SQLiteCpp`  
-- **Byggverktyg**: CMake  
+- **Databashanteringsverktyg**: 
+- DBeaver för SQLite 
 
 ---
 
@@ -177,13 +177,3 @@ Systemet ska vara flexibelt, modulärt och användarvänligt. Det ska leverera e
 - Möjlighet att migrera data till andra databassystem vid framtida behov.  
 
 ---
-
-
-
-
-    
-
-    database["customers"].push_back(newCustomer);
-
-     Spara databasen
-    saveDatabase(database, dbFile);
