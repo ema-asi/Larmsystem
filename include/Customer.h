@@ -1,3 +1,5 @@
+#ifndef CUSTOMER.H
+#define CUSTOMER.H
 #include <iostream>
 #include <string.h>
 #include "User.h"
@@ -11,13 +13,15 @@ private:
 public:
 std::string adress;
 
-  void addUser(User : user){
+  void addUser(User user){
 
   } 
-  void addAlarmSystem ( Alarmsystem : alarm){
+  void addAlarmSystem ( Alarmsystem alarm){
 
   }
 };
+
+#endif
 
 
 
