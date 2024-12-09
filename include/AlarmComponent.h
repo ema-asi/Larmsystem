@@ -12,6 +12,7 @@ std::string type;
 std::string name;
 public:
     AlarmComponent(int id, const std::string& type, const std::string& name);
+    AlarmComponent();
     void activate();
     void deactivate();
 };
