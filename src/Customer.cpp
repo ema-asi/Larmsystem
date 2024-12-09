@@ -8,7 +8,7 @@ void Customer::addUser(User user){
 
 
 }
-void Customer::addAlarmSystem(Alarmsystem alarm){
+void Customer::addAlarmSystem(AlarmSystem alarm){
     
 
 }

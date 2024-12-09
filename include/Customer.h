@@ -16,7 +16,7 @@ std::string adress;
   void addUser(User user){
 
   } 
-  void addAlarmSystem ( Alarmsystem alarm){
+  void addAlarmSystem ( AlarmSystem alarm){
 
   }
 };
