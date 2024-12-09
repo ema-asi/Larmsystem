@@ -1,3 +1,5 @@
+#ifndef USER.H
+#define USER.H
 #include <iostream>
 #include <string.h>
 
@@ -9,7 +11,12 @@ private:
     std::string tagld;
     std::string verificationPhase;
 public:
-    bool verifyAlarm; 
+    bool verifyAlarm(std::string phase){
+
+    }; 
 };
+#endif
+
+
 
 
