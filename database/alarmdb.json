@@ -1,5 +1,33 @@
-[
-    {
-        
-    }
-]
+{
+    "customers": [
+      {
+        "customerId": 1,
+        "name": "John",
+        "address": "Arenavägen 61",
+        "users": [
+          {
+            "userId": 1,
+            "code": "1234",
+            "tagId": "ABC123",
+            "verificationPhrase": "Chas"
+          }
+        ],
+        "alarmSystem": {
+          "alarmId": 1,
+          "components": [
+            {
+              "componentId": 1,
+              "type": "Smoke detector",
+              "name": "X300 Smoke"
+            },
+            {
+              "componentId": 2,
+              "type": "Break-in detector",
+              "name": "Y500 Break-in"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  
